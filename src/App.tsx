@@ -7,9 +7,10 @@ import columns from "./columns";
 import "./App.css";
 
 
-interface personData{
-  key: string;
-}
+
+// export type AppProps = {
+//   Person: any
+// }
 
 /* TODO: Implement debouncer */
 let timer: NodeJS.Timeout | undefined;
@@ -29,11 +30,11 @@ function App() {
   const filter = useCallback(() => {
     /* TODO: Implement search filter */
     // setIsLoading(true);
-    return(
-      <div>
-        key: {data}
-      </div>
-    )
+    // return(
+    //   <div>
+    //     key: {data}
+    //   </div>
+    // )
     
     console.log(data)
 
